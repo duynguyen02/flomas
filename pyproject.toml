@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flomas"
+version = "1.0.0"
+description = "Combines SAM2 and Florence-2 for Segmentation."
+authors = ["Duy Nguyen <duynguyen02.dev@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/duynguyen02/flomas"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.4.1"
+transformers = "^4.45.1"
+supervision = "^0.23.0"
+timm = "^1.0.9"
+einops = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
